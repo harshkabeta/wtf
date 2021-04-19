@@ -1,3 +1,19 @@
+# Config files, logs and stuff
+SaitamaRobot/modules/helper_funcs/temp.txt
+SaitamaRobot/elevated_users.json
+SaitamaRobot/config.py
+SaitamaRobot/config.ini
+log.txt
+kangsticker.png
+updates.txt
+start_service.bat
+
+# Session files
+SaitamaRobot/*.session
+SaitamaRobot/*.session-journal
+saitama.session-journal
+*.session
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -127,3 +143,11 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# VS code and shit
+*.pyc
+.idea/
+.project
+.pydevproject
+.directory
+.vscode
